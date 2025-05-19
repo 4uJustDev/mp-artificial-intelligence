@@ -28,10 +28,8 @@ def example_small_network():
     print("\nExample 1: Small Network")
     print("Network size: 5 nodes")
     print("Looking for path from node 0 to node 4")
-    print("Press Enter to start visualization...")
-    input()
 
-    best_path, length = gateway.find_optimal_path(chromosome_length=2)
+    best_path, length = gateway.find_optimal_path(chromosome_length=3)
     print("Found path:", best_path)
     print("Path length:", length)
 
